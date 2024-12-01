@@ -1,1 +1,1 @@
-Solutions for each day of Advent of Code 2024 challenge
+This repository contains my solutions for Advent of Code 2024 puzzles. For each day there is a solution in a separate folder, each having separate code for part 1 and 2 of a puzzle, as well as the input file. 
