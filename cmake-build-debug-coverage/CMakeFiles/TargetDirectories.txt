@@ -1,0 +1,5 @@
+C:/Users/Korisnik/CLionProjects/AoC2024/cmake-build-debug-coverage/CMakeFiles/main_program.dir
+C:/Users/Korisnik/CLionProjects/AoC2024/cmake-build-debug-coverage/CMakeFiles/part1_program.dir
+C:/Users/Korisnik/CLionProjects/AoC2024/cmake-build-debug-coverage/CMakeFiles/part2_program.dir
+C:/Users/Korisnik/CLionProjects/AoC2024/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+C:/Users/Korisnik/CLionProjects/AoC2024/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir

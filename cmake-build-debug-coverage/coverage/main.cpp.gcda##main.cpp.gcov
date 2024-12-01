@@ -1,0 +1,199 @@
+        -:    0:Source:C:/Users/Korisnik/CLionProjects/AoC2024/main.cpp
+        -:    0:Graph:C:\Users\Korisnik\CLionProjects\AoC2024\cmake-build-debug-coverage\CMakeFiles\AoC2024.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\Korisnik\CLionProjects\AoC2024\cmake-build-debug-coverage\CMakeFiles\AoC2024.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:#include <fstream>
+        -:    3:#include <vector>
+        -:    4:#include <sstream>
+        -:    5:
+        -:    6:// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+        -:    7:// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+function main called 1 returned 100% blocks executed 16%
+        1:    8:int main() {
+        -:    9:    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
+        -:   10:    // <b>lang</b> variable name to see how CLion can help you rename it.
+        1:   11:    std::ifstream inputFile("./input.txt"); // Open the file
+        1:   11-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12:    if (!inputFile) {
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12-block  1
+branch  3 taken 1 (fallthrough)
+branch  4 taken 0
+        1:   13:        std::cerr << "Error: Could not open the file." << std::endl;
+        1:   13-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   13-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   14:        return 1;
+        1:   14-block  0
+        -:   15:    }
+        -:   16:
+    #####:   17:    std::vector<int> list1;
+    #####:   18:    std::vector<int> list2;
+    #####:   19:    std::string line;
+    %%%%%:   19-block  0
+call    0 never executed
+        -:   20:
+        -:   21:    // Read the file line by line
+    #####:   22:    while (std::getline(inputFile, line)) {
+    %%%%%:   22-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    %%%%%:   22-block  1
+call    3 never executed
+branch  4 never executed (fallthrough)
+branch  5 never executed (throw)
+    %%%%%:   22-block  2
+branch  6 never executed
+branch  7 never executed (fallthrough)
+    #####:   23:        std::istringstream iss(line);
+    %%%%%:   23-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+        -:   24:        int left, right;
+        -:   25:
+        -:   26:        // Extract two integers from the line
+    #####:   27:        if (iss >> left >> right) {
+    %%%%%:   27-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    %%%%%:   27-block  1
+call    3 never executed
+branch  4 never executed (fallthrough)
+branch  5 never executed (throw)
+    %%%%%:   27-block  2
+call    6 never executed
+branch  7 never executed (fallthrough)
+branch  8 never executed (throw)
+    %%%%%:   27-block  3
+branch  9 never executed (fallthrough)
+branch 10 never executed
+    #####:   28:            list1.push_back(left);
+    %%%%%:   28-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    #####:   29:            list2.push_back(right);
+    %%%%%:   29-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+        -:   30:        } else {
+    #####:   31:            std::cerr << "Error: Malformed line in file: " << line << std::endl;
+    %%%%%:   31-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    %%%%%:   31-block  1
+call    3 never executed
+branch  4 never executed (fallthrough)
+branch  5 never executed (throw)
+    %%%%%:   31-block  2
+call    6 never executed
+branch  7 never executed (fallthrough)
+branch  8 never executed (throw)
+        -:   32:        }
+    #####:   33:    }
+    %%%%%:   33-block  0
+call    0 never executed
+    $$$$$:   33-block  1
+call    1 never executed
+        -:   34:
+    #####:   35:    inputFile.close(); // Close the file
+    %%%%%:   35-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+        -:   36:
+    #####:   37:    std::cout << "List 1: ";
+    %%%%%:   37-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    #####:   38:    for (const int& num : list1) {
+    %%%%%:   38-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:   38-block  1
+call    2 never executed
+    %%%%%:   38-block  2
+call    3 never executed
+    %%%%%:   38-block  3
+call    4 never executed
+branch  5 never executed
+branch  6 never executed (fallthrough)
+    #####:   39:        std::cout << num << " ";
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    %%%%%:   39-block  0
+call    3 never executed
+branch  4 never executed (fallthrough)
+branch  5 never executed (throw)
+        -:   40:    }
+    #####:   41:    std::cout << "\nList 2: ";
+    %%%%%:   41-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    #####:   42:    for (const int& num : list2) {
+    %%%%%:   42-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:   42-block  1
+call    2 never executed
+    %%%%%:   42-block  2
+call    3 never executed
+    %%%%%:   42-block  3
+call    4 never executed
+branch  5 never executed
+branch  6 never executed (fallthrough)
+    #####:   43:        std::cout << num << " ";
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    %%%%%:   43-block  0
+call    3 never executed
+branch  4 never executed (fallthrough)
+branch  5 never executed (throw)
+        -:   44:    }
+    #####:   45:    std::cout << std::endl;
+    %%%%%:   45-block  0
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+    #####:   46:    return 0;
+       1*:   47:}
+    %%%%%:   47-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+        1:   47-block  1
+call    3 returned 1
+    $$$$$:   47-block  2
+call    4 never executed
+    $$$$$:   47-block  3
+call    5 never executed
+    $$$$$:   47-block  4
+call    6 never executed
+    $$$$$:   47-block  5
+call    7 never executed
+        -:   48:
+        -:   49:// TIP See CLion help at <a
+        -:   50:// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
+        -:   51://  Also, you can try interactive lessons for CLion by selecting
+        -:   52://  'Help | Learn IDE Features' from the main menu.
