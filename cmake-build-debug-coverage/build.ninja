@@ -55,6 +55,18 @@ build CMakeFiles/main_program.dir/main.cpp.obj: CXX_COMPILER__main_program_unsca
   OBJECT_DIR = CMakeFiles\main_program.dir
   OBJECT_FILE_DIR = CMakeFiles\main_program.dir
 
+build CMakeFiles/main_program.dir/Day02/part1.cpp.obj: CXX_COMPILER__main_program_unscanned_Debug C$:/Users/Korisnik/CLionProjects/AoC2024/Day02/part1.cpp || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles\main_program.dir\Day02\part1.cpp.obj.d
+  FLAGS = --coverage -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles\main_program.dir\Day02
+
+build CMakeFiles/main_program.dir/Day02/part2.cpp.obj: CXX_COMPILER__main_program_unscanned_Debug C$:/Users/Korisnik/CLionProjects/AoC2024/Day02/part2.cpp || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles\main_program.dir\Day02\part2.cpp.obj.d
+  FLAGS = --coverage -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles\main_program.dir\Day02
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main_program
@@ -63,7 +75,7 @@ build CMakeFiles/main_program.dir/main.cpp.obj: CXX_COMPILER__main_program_unsca
 #############################################
 # Link the executable main_program.exe
 
-build main_program.exe: CXX_EXECUTABLE_LINKER__main_program_Debug CMakeFiles/main_program.dir/main.cpp.obj
+build main_program.exe: CXX_EXECUTABLE_LINKER__main_program_Debug CMakeFiles/main_program.dir/main.cpp.obj CMakeFiles/main_program.dir/Day02/part1.cpp.obj CMakeFiles/main_program.dir/Day02/part2.cpp.obj
   FLAGS = --coverage -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main_program.dir
